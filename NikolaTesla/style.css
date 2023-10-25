@@ -1,0 +1,85 @@
+.main {
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .title {
+    padding-top : 3%;
+  }
+  .subtitle {
+    margin: -15px 0px 35px 0px;
+  }
+  
+  .quote {
+    font-weight: bold;
+    font-size: medium;
+    margin: 35px 0px 15px 0px;
+  }
+  
+  .source-quote {
+    font-size: small;
+  }
+  
+  .timeline,
+  .fun-facts {
+    margin: 80px 0px 50px 0px;
+    font-size: xx-large;
+  }
+  
+  .title-event {
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .date-event {
+    font-size: x-large;
+    padding: 20px 20px 0px 20px;
+  }
+  
+  .description {
+    margin: -5px 0px 20px 0px;
+    font-weight: bold;
+  }
+  
+  .msg-event {
+    text-align: justify;
+    text-align-last: center;
+  }
+  
+  .collapsible-body {
+    background-color: #ffffff;
+  }
+  
+  .link {
+    
+    width: 100%;
+    margin: 0px 0px 25px 0px;
+  }
+  
+  blockquote {
+    border-left: 5px solid #c368fc;
+  }
+  
+  .page-footer,
+  .pad {
+    margin-right: -14.3%;
+    margin-left: -14.3%;
+  }
+  
+  .world-history-project,
+  .ovelny,
+  .share {
+    font-weight: bold;
+  }
+  
+  .icon {
+    padding: 0px 0px 0px 10px;
+    vertical-align: -3px;
+  }
+  
+  .pad {
+    height: 50px;
+    background: #c368fc;
+  }
