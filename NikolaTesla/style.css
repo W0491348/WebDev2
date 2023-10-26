@@ -3,11 +3,9 @@
 
 .main {
     background-color: rgb(200, 180, 205);
-    padding-right: 10%;
-    padding-left: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
     image-rendering: crisp-edges;
+    padding-right: 5%;
+    padding-left: 5%;
   }
 
   header{
@@ -18,7 +16,7 @@
   
   .title {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-top : 2%;
+    padding-top : 5%;
     text-align: center;
     
   }
@@ -27,6 +25,13 @@
     margin: -15px 0px 35px 0px;
     text-align: center;
   }
+
+  blockquote {
+    text-align: center;
+    margin: auto;
+    background-color: rgb(192, 163, 203);
+    max-width: 70vw;
+}
   
   .quote {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,7 +51,7 @@
     font-size: xx-large;
     text-align: center;
     margin: auto;
-    font-size: 25px;
+    font-weight: bold;
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom-style: solid;
@@ -104,6 +109,9 @@
   .pad {
     margin-right: -14.3%;
     margin-left: -14.3%;
+    position: relative; /* Enable positioning */
+    right: 20px; /* Move the <li> 20 pixels to the right */
+    top: 10px; /* Move the <li> 10 pixels down */
   }
   
   .world-history-project,
@@ -118,7 +126,8 @@
     vertical-align: -3px;
   }
   
-  .pad {
-    height: 5px;
+  /* .pad {
+    height: 10px;
+    position: fixed;
     background: #c368fc;
-  }
+  } */
