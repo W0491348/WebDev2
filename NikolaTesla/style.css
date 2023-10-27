@@ -1,22 +1,88 @@
 
 
+body{
+  margin:0;
+  padding:0;
+  background-size: 50%;
+  background-position: bottom right;
+  background-repeat:no-repeat;
+}
+blockquote{
+  padding:30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #1ea295;
+}
+.main{
+  margin:0;
+  padding:20px;
+  color:#1ea295;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: small;
+}
+.date-event{
+  color:#1ea295;
+}
+.description{
+  color:#1ea295;
+}
+
+
+.collapsible-body{
+padding: 25px;
+max-width:100%;
+}
+
+.msg-event{
+  text-align: justify;
+  text-align-last: center;
+}
+
+.collapsible{
+  margin: 10px auto;
+  max-width:100%;
+  padding:15px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.subtitle {
+  margin: -15px 0px 35px 0px;
+}
+
+.quote {
+  font-weight: bold;
+  font-size: medium;
+  margin: 35px 0px 15px 0px;
+}
+
+  /* .main{
+      margin:0;
+      padding:20px;
+      color:white;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-align: left;
+      font-size: 20px;
+  } */
+
 
 .main {
     background-color: rgb(200, 180, 205);
     image-rendering: crisp-edges;
     padding-right: 5%;
     padding-left: 5%;
-  }
+  } *
 
   header{
     position: relative;
     margin: auto;
     justify-items: center;
+    box-sizing: border-box;
     }
   
   .title {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-top : 5%;
+    padding-top : 3%;
+    font-weight: bold;
     text-align: center;
     
   }
@@ -37,7 +103,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     font-size: medium;
-    margin: 35px 0px 15px 0px;
+    margin: auto;
   }
   
   .source-quote {
@@ -85,6 +151,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: justify;
     text-align-last: center;
+    font-size: medium;
   }
   
   .collapsible-body {
@@ -110,9 +177,9 @@
     margin-right: -14.3%;
     margin-left: -14.3%;
     position: relative; /* Enable positioning */
-    right: 20px; /* Move the <li> 20 pixels to the right */
-    top: 10px; /* Move the <li> 10 pixels down */
-  }
+    /* right: 20px; Move the <li> 20 pixels to the right */
+    /* top: 10px; Move the <li> 10 pixels down */
+  /* }
   
   .world-history-project,
   .ovelny,
@@ -125,9 +192,9 @@
     padding: 0px 0px 0px 10px;
     vertical-align: -3px;
   }
-  
+   */
   /* .pad {
     height: 10px;
     position: fixed;
     background: #c368fc;
-  } */
+  } */ 
