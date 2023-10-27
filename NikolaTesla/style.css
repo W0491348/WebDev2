@@ -176,9 +176,9 @@ max-width:100%;
   .pad {
     margin-right: -14.3%;
     margin-left: -14.3%;
-    position: relative; Enable positioning */
-    right: 20px; Move the <li> 20 pixels to the right
-    top: 10px; Move the <li> 10 pixels down
+    position: relative; 
+    right: 20px;
+    top: 10px; 
   }
   
   .world-history-project,
