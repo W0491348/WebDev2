@@ -4,9 +4,9 @@ body {
 }
 
 .interactive-bar {
-    background-color: #3498db;
+    background-color: rgb(18, 25, 30);
     color: #fff;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -30,7 +30,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #2980b9;
+    background-color: rgb(185, 41, 113);
 }
 
 .main-content {
