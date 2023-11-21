@@ -8,6 +8,14 @@ body {
     color: #fff;
     padding: 5px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interactive-bar img {
+    height: 30px; /* Adjust the height as needed */
+    margin-right: 20px; /* Adjust the spacing between image and links */
 }
 
 nav ul {
@@ -35,4 +43,90 @@ nav a:hover {
 
 .main-content {
     padding: 20px;
+}
+
+.centered-image {
+    text-align: center;
+}
+
+.centered-image img {
+    padding-top: 5%;
+    max-width: 5%; 
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+}
+
+.product-title {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold;
+}
+
+.shop-list {
+    list-style: none;
+    padding: 0;
+}
+
+.shop-now-link {
+    font-size: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.iphone11 {
+    max-width: 80%; 
+    margin: 20px auto; 
+}
+
+.iphone11 img {
+    max-width: 50%; /* Adjust the maximum width of the images */
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+
+.text-container {
+    background-color: black; /* Black background for the text container */
+    padding: 10px; /* Add some padding for spacing */
+    text-align: center;
+    max-width: 89.5%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.black-background-text {
+    color: white; 
+    font-size: 50px;
+    margin: 0; 
+    font-weight: lighter;
+    line-height: 1;
+}
+
+.smaller-text {
+    font-size: 20px;
+    font-weight: lighter;
+}
+.even-smaller-text {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.splash-art {
+    width: 90%; 
+    max-width: 90%;
+    border-top: 50px solid black; /* Black border on the top */
+    border-left: 5px solid black; /* Black border on the left */
+    border-right: 5px solid black; /* Black border on the right */
+    background-color: black;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+.splash-art img {
+    /* max-width: 100%;
+    min-width: 50px; */
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
