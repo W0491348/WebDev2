@@ -130,3 +130,41 @@ nav a:hover {
     display: block;
     margin: 0 auto;
 }
+
+/* body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.square {
+    width: 48%; /* Adjust as needed, ensuring space for margins */
+    /* margin: 1%; /* Adjust as needed for spacing between squares */
+    /* display: inline-block;
+    position: relative;
+}
+
+.square img {
+    width: 50%;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+
+.mac2 {
+    font-size: 20px;
+    text-align: center;
+
+} */ */
+
+.ipad2 {
+    font-size: 20px;
+    text-align: center;
+} */
