@@ -79,7 +79,7 @@ nav a:hover {
 }
 
 .iphone11 img {
-    max-width: 50%; /* Adjust the maximum width of the images */
+    max-width: 50%;
     height: auto;
     margin-bottom: 10px;
     
@@ -129,6 +129,18 @@ nav a:hover {
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+.grid-container {
+    display: grid;
+    background-color: rgb(224, 218, 218);
+  }
+
+.grid-container img {
+    max-width: 50%; 
+    height: auto;
+    margin-bottom: 10px;
+
 }
 
 /* body {
