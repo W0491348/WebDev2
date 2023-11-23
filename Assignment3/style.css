@@ -14,15 +14,15 @@ body {
 }
 
 .interactive-bar img {
-    height: 30px; /* Adjust the height as needed */
-    margin-right: 20px; /* Adjust the spacing between image and links */
+    height: 30px; 
+    margin-right: 20px; 
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    display: flex; /* Make the list items flex containers */
-    justify-content: center; /* Center the items horizontally */
+    display: flex; 
+    justify-content: center; 
 }
 
 nav li {
@@ -58,7 +58,7 @@ nav a:hover {
 }
 
 .product-title {
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 24px; 
     font-weight: bold;
 }
 
@@ -86,8 +86,8 @@ nav a:hover {
 }
 
 .text-container {
-    background-color: black; /* Black background for the text container */
-    padding: 10px; /* Add some padding for spacing */
+    background-color: black; 
+    padding: 10px; 
     text-align: center;
     max-width: 89.5%;
     overflow: hidden;
@@ -114,9 +114,9 @@ nav a:hover {
 .splash-art {
     width: 90%; 
     max-width: 90%;
-    border-top: 50px solid black; /* Black border on the top */
-    border-left: 5px solid black; /* Black border on the left */
-    border-right: 5px solid black; /* Black border on the right */
+    border-top: 50px solid black; 
+    border-left: 5px solid black; 
+    border-right: 5px solid black; 
     background-color: black;
     overflow: hidden;
     margin: 0 auto;
@@ -124,59 +124,66 @@ nav a:hover {
 
 
 .splash-art img {
-    /* max-width: 100%;
-    min-width: 50px; */
     height: auto;
     display: block;
     margin: 0 auto;
 }
 
-.grid-container {
-    display: grid;
-    background-color: rgb(224, 218, 218);
-  }
 
-.grid-container img {
-    max-width: 50%; 
-    height: auto;
-    margin-bottom: 10px;
-
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+    box-sizing: border-box;
 }
 
-/* body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
+.flex-item {
+    flex: 1;
     text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.square {
-    width: 48%; /* Adjust as needed, ensuring space for margins */
-    /* margin: 1%; /* Adjust as needed for spacing between squares */
-    /* display: inline-block;
-    position: relative;
+.flex-item img {
+    max-width: 100%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
 }
 
-.square img {
-    width: 50%;
-    height: auto;
-}
-
-.text-overlay {
-    position: absolute;
-    top: 0;
-    left: 50%;
+.flex-item div {
     color: black;
-    text-align: center;
-    font-size: 18px;
 }
 
-.mac2 {
-    font-size: 20px;
-    text-align: center;
+.grid-item1,
+.grid-item2,
+.grid-item3,
+.grid-item4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+.mac2,
+.ipad2,
+.iphone2,
+.watch2 {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
 
-} */ */
+.grid-item-text {
+    margin-bottom: 10px; 
+}
 
-.ipad2 {
-    font-size: 20px;
-    text-align: center;
-} */
+.grid-item-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
