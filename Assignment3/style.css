@@ -132,23 +132,24 @@ nav a:hover {
 
 .flex-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
     background-color: white;
     margin: 10px;
-    box-sizing: border-box;
 }
 
 .flex-item {
-    flex: 1;
+    width: 48%;
+    margin-bottom: 20px;
     text-align: center;
     background-color: #f4f4f4;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
 }
 
 .flex-item img {
@@ -156,6 +157,7 @@ nav a:hover {
     height: 50%;
     display: block;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .flex-item div {
@@ -181,9 +183,9 @@ nav a:hover {
     margin-bottom: 10px; 
 }
 
-.grid-item-img {
+/* .grid-item-img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
-}
+} */
