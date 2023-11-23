@@ -21,8 +21,8 @@ body {
 nav ul {
     list-style: none;
     padding: 0;
-    display: flex; 
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
 }
 
 nav li {
@@ -112,7 +112,6 @@ nav a:hover {
 }
 
 .splash-art {
-    width: 90%; 
     max-width: 90%;
     border-top: 50px solid black; 
     border-left: 5px solid black; 
@@ -153,11 +152,10 @@ nav a:hover {
 }
 
 .flex-item img {
-    max-width: 100%;
+    max-width: 50%;
     height: 50%;
     display: block;
     margin: 0 auto;
-    justify-content: center;
 }
 
 .flex-item div {
