@@ -1,3 +1,24 @@
+table {
+    width: 20%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td {
+    border: 1px 
+    padding: 10px;
+    color: black;
+    text-align: center;
+    
+}
+
+th {
+    background-color: #000000;
+    color: white;
+    font
+}
+
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -67,6 +88,7 @@ section {
     height: auto;
     border-radius: 8px;
 }
+
 
 footer {
 
